@@ -1,0 +1,7 @@
+fastapi[all]
+python-telegram-bot[async]
+python-dotenv
+aioredis
+uvicorn[standard]
+loguru
+pydantic

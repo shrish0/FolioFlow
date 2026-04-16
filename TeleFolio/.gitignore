@@ -1,0 +1,39 @@
+# Python byte‑code & caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment files (never commit secrets)
+.env
+
+# Logs
+*.log
+logs/
+
+# OS‑specific files
+.DS_Store
+Thumbs.db
+
+# Build artefacts
+build/
+dist/
+*.egg-info/
+
+# FastAPI / Render temporary files
+__pycache__/
+*.sqlite3
+
+# IDE / editor artefacts (optional but safe)
+.idea/
+.vscode/
+
+#rule set 
+agents/
+.agents/
+.claude/
+.gemini
